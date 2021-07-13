@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header-container{
+    width: 100vw;
+    height: 100%;
+    animation: slideText 0.5s ease-in-out;
+    margin-bottom: 130px;
+}
+
+.title{
+    width: 55vw;
+    height: 100%;
+    font-size: 3.6rem;
+    margin-top: 30.3vh;
+    margin-left: 13.3vw;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+    color: rgb(82, 70, 70);
+    
+    
+    
+}
+
+.title-span{
+    
+    background: -webkit-linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+@keyframes slideText {
+    0%{
+        margin-left: -8.4vw;
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:850px) {
+    .title{
+        font-size: 3.2rem;
+        text-align: center;
+        margin-top: 20vh;
+        width: 60vw;
+        margin-left: 20vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .title{
+        font-size: 3.2rem;
+        text-align: center;
+        margin-top: 13vh;
+        width: 65vw;
+        margin-left: 17.5vw;
+    }
+}

@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button-container{    
+    margin-top: -80px;
+    animation: slideButton 0.5s ease-in-out forwards;    
+}
+
+.enter {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: 3px solid rgb(128, 117, 117) ;
+    border-radius: 3px;
+    animation: buttonHider 1s ;
+    margin-bottom: 100px; 
+    margin-left: -60px;   
+}
+
+.git{
+    font-size: 1.5rem;
+    padding: 8px 60px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: 3px solid rgb(128, 117, 117) ;
+    border-radius: 3px;
+    animation: buttonHider 1s ;
+    margin-bottom: 100px; 
+    margin-left: 90px;
+}
+
+.fas{
+    margin-left: 20px;
+}
+
+.fab{
+    margin-left: 20px;
+    font-size: 2rem;
+    
+}
+
+.button-link{
+    text-decoration: none;
+    color:rgb(82, 70, 70) ;
+    letter-spacing: 2;
+}
+
+ button:hover a{
+    color: white;
+    letter-spacing: 2;
+    
+}
+
+button:hover{
+    background:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172)) ;
+    color: white;
+    border: 3px solid rgb(128, 117, 117);
+
+}
+
+@keyframes slideButton {
+    0%{
+        margin-left: 8.4vw;
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.6;
+    }
+    100%{
+        opacity: 1;
+        margin-left: 17.5vw;
+    }
+}
+
+@keyframes buttonHider {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+@media only screen and (max-width:850px) {
+
+
+    button{
+        margin-left: 2.5vw;
+        width: 60vw;
+        margin-bottom: 20px;
+    }
+    
+    .enter{
+        margin-left: 2.5vw;
+        margin-bottom: 30px;
+    }
+
+    .git{
+        margin-left: 2.5vw;
+        margin-bottom: 40px;
+
+    }
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-container{
+    margin-top: 200px;
+    width: 100%;
+    height: fit-content;
+    transform: skewY(-3deg);
+    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
+    padding-bottom: 55px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-img{
+    margin-left: 9vw;
+    border-radius: 5px;
+    box-shadow: 2px 1px 30px black;
+    height: 450px;
+    width: 25vw;
+    margin-top: 78px;
+}
+
+.about-text-container{
+    width:55vw;
+    height:auto;
+}
+
+.about-me-header{
+    font-size: 2rem;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+    width: 40vw;
+    margin-left: 24vw;
+    text-shadow: 2px 1px 20px black;
+    margin-top: 60px;
+}
+
+.about-me-paragraph{
+    text-shadow: 2px 1px 20px black;
+    width: 40vw;
+    font-size: 1.5rem;
+    margin-left: 12vw;
+    line-height: 1.5;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:1175px){
+    .about-me-paragraph{
+        font-size: 1.2rem;
+        margin-left: 80px;
+        text-align: center;
+    }
+    .about-me-header{
+        font-size: 1.6rem;
+        margin-left: 15vw;
+    }
+
+   
+}
+
+@media only screen and (max-width:950px){
+    .about-img{
+        width:60vw;
+        height: 50vh;
+        margin-left: 20vw;
+    }
+    .about-container{
+        height: fit-content;
+        text-align: center;
+        padding-top: 20px;
+        transform: skewY(0);
+    }
+    .about-me-paragraph{
+        width: 80vw;
+        margin-left: 8vw;
+        margin-bottom: 50px;
+                
+    }
+    .about-me-header{
+        margin-top: 60px;
+        margin-left: 20vw;
+        font-size: 1.7rem;
+        width: 100%;
+    }
+
+}

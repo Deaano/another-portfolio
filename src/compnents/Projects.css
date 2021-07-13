@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project-container{
+ width: 100vw;
+ height: fit-content;
+ padding: 10px;
+ flex-wrap: wrap;
+ background: rgb(250, 248, 243);
+transform: skewY(-3deg);
+}
+
+.project-header{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 55px;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    transform: skewY(3deg);
+    color: rgb(82, 70, 70);
+}
+
+.project-card-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: skewY(3deg);
+    
+}
+
+.project-card{
+    width: 350px;
+    height: 550px;
+    box-shadow: 2px 2px 20px black;
+    background: white;
+    margin-bottom: 80px;
+    margin-left:45px;
+    transform: skewY(3deg);
+    
+}
+
+.project-card:hover{
+    position: relative;
+    bottom: 8px;
+    box-shadow: 2px 2px 20px rgb(1, 1, 139);
+}
+
+.project-img-container{
+    width: 100%;
+    height: 40%;
+}
+
+.project-img{
+    height: 100%;
+    width: 100%;
+}
+
+.project-content-container{
+    width: 100%;
+    height: 40%;
+    padding: 30px;
+}
+
+.project-content{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.07rem;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(82, 70, 70);
+}
+
+.project-button-container{
+    z-index: 5;
+    width: 100%;
+    height: auto;
+}
+
+.project-buttons{
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:950px) {
+    .project-card-container{
+        transform: skewY(0deg);
+    }
+    .project-container{
+        transform: skewY(0deg);
+    }
+
+
+}
+
+@media only screen and (max-width:650px) {
+    .project-card{
+        margin-left: 0;
+       
+    }
+}
+
+
+
+
