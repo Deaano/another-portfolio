@@ -41,7 +41,8 @@
 
 .fab{
     margin-left: 20px;
-    font-size: 2rem;
+    
+    
     
 }
 
@@ -91,20 +92,23 @@ button:hover{
 @media only screen and (max-width:850px) {
 
 
-    button{
-        margin-left: 2.5vw;
+    .enter{
         width: 60vw;
-        margin-bottom: 20px;
+        font-size: 4.5vw;
+        margin-left: 2.5vw;
+        margin-bottom: 30px;
     }
     
-    .enter{
+    .git{
+        width: 60vw;
+        font-size: 4.5vw;
         margin-left: 2.5vw;
         margin-bottom: 30px;
     }
 
-    .git{
-        margin-left: 2.5vw;
-        margin-bottom: 40px;
-
+    .fab{
+        font-size: 4.5vw;
     }
+
+    
 }

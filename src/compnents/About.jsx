@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 function About() {
     return (
-        <div className='about-container'>
+        <div id='about' className='about-container'>
         <Fade left>
             <img className='about-img' alt='' src={Me} />
         </Fade>

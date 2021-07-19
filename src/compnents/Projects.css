@@ -11,6 +11,7 @@
  flex-wrap: wrap;
  background: rgb(250, 248, 243);
 transform: skewY(-3deg);
+padding-bottom: 100px;
 }
 
 .project-header{
@@ -87,6 +88,9 @@ transform: skewY(-3deg);
         transform: skewY(0deg);
     }
     .project-container{
+        transform: skewY(0deg);
+    }
+    .project-header{
         transform: skewY(0deg);
     }
 

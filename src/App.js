@@ -3,6 +3,7 @@ import Header from './compnents/Header'
 import Button from './compnents/Button'
 import About from './compnents/About'
 import Projects from './compnents/Projects'
+import Contact from './compnents/Contact.jsx'
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Button />
       <About />
       <Projects />
+      <Contact />
       
     </div>
   );

@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container{
+    width: 100%;
+    height: 45vh;
+    transform: skewY(-3deg);
+    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
+    padding-bottom: 55px;
+    flex-wrap: wrap;
+}
+
+.clicked-contact-container{
+    width: 100%;
+    height: 55vh;
+    transform: skewY(-3deg);
+    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
+    padding-bottom: 55px;
+    flex-wrap: wrap;
+}
+
+
+.contact-title{
+    font-size: 4vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 40vw;
+    margin-left: 28.5vw;
+    text-shadow: 2px 1px 20px black;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.contact-button{
+    width: 280px;
+    background-image: linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
+    height: fit-content;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 250px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+    box-shadow: 1px 1px 3px black;
+    color: white;
+    margin-left: 40vw;
+    
+}
+
+.clicked-title{
+    font-size: 2.7vw;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 40vw;
+    margin-left: 28.5vw;
+    text-shadow: 2px 1px 20px black;
+    padding-top: 40px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.icon-container{
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.contact-icons{
+    display: flex;
+    font-size: 3rem;
+    width: fit-content; 
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+.phone{
+    color: rgb(123, 201, 6);
+}
+.phone:hover{
+    color: rgb(155, 236, 32);
+}
+
+.email{
+    color: rgb(199, 34, 13);
+}
+.email:hover{
+    color: rgb(238, 75, 54);
+}
+
+.linked{
+    color: rgb(17, 7, 160);
+}
+.linked:hover{
+    color: rgb(26, 14, 192);
+}
+
+.linked:hover .linkedlink{
+    display: block;
+}
+
+
+
+@keyframes fadeIn {
+    0%{
+        
+        opacity: 0;
+       
+    }50%{
+        
+        opacity: 0.5;
+        
+    }100%{
+        
+        opacity: 1;
+        
+    }
+}
+
+
+
+@media only screen and (max-width:1150px){
+    .contact-container{
+        transform: skewY(0deg);
+        height: fit-content;
+    }
+    .contact-title{
+        font-size: 5rem;
+        width: 92vw;
+        margin-left: 20px;
+    }
+
+    .contact-button{
+        margin-left: 35%;
+    }
+
+
+}
+
+@media only screen and (max-width:750px){
+.contact-title{
+    font-size: 2.5rem;
+}
+
+    .contact-button{
+        margin-top: 30px;
+        margin-left: 26.5%;
+    }
+
+}
+
+@media only screen and (max-width:500px){
+    .contact-button{
+        margin-left: 20%;
+    }
+}
