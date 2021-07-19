@@ -7,27 +7,20 @@
 .container-cover{
     width: 100vw;
     z-index: -3;
-    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
-    height: 55vh;
+    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(50, 25, 165));
+    height: 64vh;
     
 }
 
 .contact-container{
     width: 100%;
-    height: 45vh;
+    height: 60vh;
     transform: skewY(-3deg);
     background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
-    padding-bottom: 55px;
+    padding-bottom: 200px;
     flex-wrap: wrap;
     padding-top: 40px;
-}
-
-.clicked-contact-container{
-    width: 100%;
-    height: 55vh;
-    background-image:linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
-    padding-bottom: 55px;
-    flex-wrap: wrap;
+    
 }
 
 
@@ -36,11 +29,12 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     width: 40vw;
-    margin-left: 28.5vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
     text-shadow: 2px 1px 20px black;
     padding-top: 40px;
     text-align: center;
-    transform: skewY(0deg);
+    transform: skewY(3deg);
 }
 
 .contact-button{
@@ -54,6 +48,8 @@
     margin-top: 20px;
     box-shadow: 1px 1px 3px black;
     color: white;
+    transform: skewY(3deg);
+    margin-bottom: -50px;
     
     
 }
@@ -63,11 +59,13 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     width: 40vw;
-    margin-left: 28.5vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
     text-shadow: 2px 1px 20px black;
-    padding-top: 40px;
+    padding-top: 65px;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
+    transform: skewY(3deg);
 }
 
 .icon-container{
@@ -75,6 +73,8 @@
     display: flex;
     justify-content: center;
     animation: fadeIn 1s ease-in-out;
+    transform: skewY(3deg);
+    margin-top: 15px;
 }
 
 .contact-icons{
@@ -140,15 +140,41 @@
         transform: skewY(0deg);
         height: fit-content;
     }
+
+    .container-cover{
+        height: 55vh;
+    }
+
+    .contact-container{
+        height: 55vh;
+    }
     .contact-title{
-        font-size: 5rem;
+        font-size: 3rem;
         width: 92vw;
         margin-left: 20px;
+        transform: skewY(0deg);
+
+    }
+
+    .clicked-title{
+        transform: skewY(0deg);
+        font-size: 2rem;
+        width: 80vw;
+        margin: 0 10vw;
+    }
+
+    .contact-button-container{
+        transform: skewY(-3deg);
+    }
+
+    .icon-container{
+        transform: skewY(0deg);
     }
 
     .contact-icons{
         margin-left: 80px;
         margin-right: 100px;
+        
     }
 
 
@@ -182,6 +208,7 @@
         margin-left: 50px;
         margin-right: 70px;
         font-size: 3rem;
+        
     }
 
 }
