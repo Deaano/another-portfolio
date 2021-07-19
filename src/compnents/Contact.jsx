@@ -16,7 +16,9 @@ function Contact() {
     return (
         <div className='contact-container'>
            <h2 className='contact-title'>Like What You See? Get In Touch.</h2>
+           <div className='contact-button-container'>
             <button className='contact-button' onClick={clickHandler}>Click Here</button>
+            </div>
         </div>
     )
     } else {
