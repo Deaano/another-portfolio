@@ -5,13 +5,13 @@
 }
 
 .project-container{
- width: 100vw;
- height: fit-content;
- padding: 10px;
- flex-wrap: wrap;
- background: rgb(250, 248, 243);
-transform: skewY(-3deg);
-padding-bottom: 100px;
+    width: 100vw;
+    height: fit-content;
+    padding: 10px;
+    flex-wrap: wrap;
+    background: rgb(250, 248, 243);
+    transform: skewY(-3deg);
+    padding-bottom: 100px;
 }
 
 .project-header{

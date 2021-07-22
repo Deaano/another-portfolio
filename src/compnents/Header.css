@@ -25,17 +25,17 @@ body{
     line-height: 1.2;
     letter-spacing: 1.5px;
     color: rgb(82, 70, 70);
-    
-    
-    
 }
 
-.title-span{
-    
+   /* webkit to change the text color in the span */
+
+.title-span{    
     background: -webkit-linear-gradient(40deg,rgb(91, 143, 240), rgb(46, 18, 172));
-    -webkit-background-clip: text;
+    background-clip: text;
    -webkit-text-fill-color: transparent;
 }
+
+    /* Slide animation for main screen title */
 
 @keyframes slideText {
     0%{

@@ -5,15 +5,17 @@ import './ProjectCard.css'
 
 function ProjectCard(props) {
     return (
+    <div>
         <div>
-        <div>
-        <Fade>
+    <Fade>
         <div className='project-card'>
+        
         <div className='project-img-container'>
-        <img className='project-img' src={props.pic} alt ='' />
+            <img className='project-img' src={props.pic} alt ='' />
         </div>
+        
         <div className='project-content-container'>
-        <p className='project-content'>{props.content}</p>
+            <p className='project-content'>{props.content}</p>
         </div>
         
         <div className='project-button-container'>
@@ -23,11 +25,9 @@ function ProjectCard(props) {
         
         
         </div>
-        </Fade>
-        
-        
+    </Fade>
         </div> 
-        </div>
+    </div>
     )
 }
 

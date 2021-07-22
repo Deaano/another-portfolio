@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './compnents/Header'
-import Button from './compnents/Button'
+import HeaderButton from './compnents/HeaderButton'
 import About from './compnents/About'
 import Projects from './compnents/Projects'
 import Contact from './compnents/Contact.jsx'
@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Button />
+      <HeaderButton />
       <About />
       <Projects />
       <Contact />
