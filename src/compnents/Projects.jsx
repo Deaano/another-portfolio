@@ -19,17 +19,16 @@ function Projects(props) {
         </div>
         </Fade>
         <div className='project-card-container'>
+        
         {projectInfo.map(props =>
         <ProjectCard 
-        key={props.id}
-        pic={props.pic}
-        content={props.content}
-        link={props.link}
-        github={props.github}
+          key={props.id}
+          pic={props.pic}
+          content={props.content}
+          link={props.link}
+          github={props.github}
       />)}
 
-      
-         
         </div>
         </div>
         
