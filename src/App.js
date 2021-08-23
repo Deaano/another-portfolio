@@ -6,6 +6,8 @@ import Projects from './compnents/Projects'
 import Contact from './compnents/Contact.jsx'
 import './App.css'
 
+// My First React Project was my portfolio :)
+
 function App() {
   return (
     <div>
@@ -14,7 +16,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      
     </div>
   );
 }

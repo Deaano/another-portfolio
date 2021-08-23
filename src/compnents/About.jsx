@@ -15,7 +15,7 @@ function About() {
             <div className='about-text-container'>
                 <h3 className='about-me-header'>About Dean Ward</h3>
                 <p className='about-me-paragraph'>
-                    I’ve been doing Web Development for about 1 year now and i am continuing on work towards mastering my craft. 
+                    I have been doing Web Development for about 1 year now and i am continuing on work towards mastering my craft. 
                     I have experience in languages and frameworks, ranging from JavaScript, ReactJS, Material UI, Bootstrap, NodeJS, Git, HTML and CSS. 
                     My passion for problem solving, Coding and making great eye catching websites fuels the love I have for my work.
                 </p> 

@@ -1,15 +1,15 @@
-import Portfolio from './compnents/images/portfolio-attempt.png'
+import Portfolio from './compnents/images/MovieApp.png'
 
 const projectInfo = [{
     id:1,
     pic:Portfolio,
-    content:'This was my first attempt of doing a portfolio, This project was made with HTML, CSS and JavaScript. it was fun to make with experimenting with all the different things and tricks i learnt. ',
-    link:'https://deaano.github.io/dean-ward/',
-    github:'https://github.com/Deaano/dean-ward'
+    content:'A QuickFlick! a web app using data from an api, This project was built with ReactJS, Axios, React-Router-Dom and Material-UI. A fun project to build and gave me some real world experiance using reactJS ',
+    link:'https://deaano.github.io/movie-project/',
+    github:'https://github.com/Deaano/movie-project'
 },{
     id:2,
     pic:'https://deaano.github.io/dean-ward/images/todo.png',
-    content:'The ToDo App Project! build with HTML, CSS and JavaScript. this project was fun to do with manipulating the dom and creating and appending value on to the dom via JavaScript.',
+    content:'The ToDo App! Every Portfolio needs one 😅 built with HTML, CSS and JavaScript. this project was fun to do with manipulating the dom and creating and appending to the dom via JavaScript.',
     link:'https://deaano.github.io/todo-list/',
     github:'https://github.com/Deaano/todo-list'
 },{

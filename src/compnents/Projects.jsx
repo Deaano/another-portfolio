@@ -11,7 +11,7 @@ function Projects(props) {
     return (
         <div className='project-container'>
         
-        <Fade down>
+        <Fade up>
         <div className='project-header-container'>
         
         <h2 className='project-header'> My Work</h2>
