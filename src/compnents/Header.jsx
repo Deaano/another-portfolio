@@ -8,7 +8,7 @@ function Header() {
             
             <h1 className='title'>Hi, My Name Is 
             <span className='title-span'> Dean Ward </span>
-            I'm A Front-End Web Developer.
+            And I'm A Junior Front-End Web Developer.
             </h1>
             
         </div>

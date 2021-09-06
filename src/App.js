@@ -10,12 +10,14 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+   
+   <div>
       <Header />
       <HeaderButton />
       <About />
       <Projects />
       <Contact />
+    
     </div>
   );
 }

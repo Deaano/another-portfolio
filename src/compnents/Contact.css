@@ -148,7 +148,7 @@
     }
 
     .contact-container{
-        height: 55vh;
+        height: 62vh;
     }
 
     .contact-title{
@@ -212,5 +212,9 @@
     }
     .clicked-title{
         margin-top: -30px;
+    }
+    .container-cover{
+        height: 66vh;
+        
     }
 }
