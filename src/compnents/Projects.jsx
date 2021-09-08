@@ -14,7 +14,8 @@ function Projects(props) {
         <Fade up>
         <div className='project-header-container'>
         
-        <h2 className='project-header'> My Work</h2>
+        <h2 className='project-header'>Projects</h2>
+        <h3 className='project-sub-header'>My Work</h3>
         
         </div>
         </Fade>

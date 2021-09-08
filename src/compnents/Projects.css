@@ -24,6 +24,16 @@
     color: rgb(82, 70, 70);
 }
 
+.project-sub-header{
+    text-align: center;
+    margin-top: -55px;
+    margin-bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(82, 70, 70);
+    font-size: 1.5rem;
+    transform: skewY(3deg);
+}
+
 .project-card-container{
     display: flex;
     justify-content: space-around;
