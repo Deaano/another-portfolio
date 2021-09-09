@@ -66,7 +66,7 @@
 
 @media only screen and (max-width:950px){
     .about-img{
-        width:70vw;
+        width:80vw;
         height: 50vh;
         margin-left: 10vw;
     }
@@ -80,14 +80,16 @@
 
     .about-me-paragraph{
         width: 80vw;
-        margin-left: 8vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
         margin-bottom: 50px;       
     }
 
     .about-me-header{
-        margin-top: 60px;
-        margin-left: 20vw;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
         font-size: 1.7rem;
-        width: 100%;
+        
     }
 }

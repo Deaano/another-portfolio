@@ -13,8 +13,7 @@ function Contact() {
 
     if (!contactSection){
     return (
-    <div className='container-cover'>
-        
+
     <div className='contact-container'>
             <h2 className='contact-title'>Like What You See? Get In Touch.</h2>
         
@@ -23,13 +22,10 @@ function Contact() {
         </div>
         
     </div>
-    
-    </div> 
+     
     )
     } else {
-        return (
-    <div className='container-cover'>
-            
+        return (            
     <div className='contact-container'>
         <h2 className='clicked-title'>Contact me at any time of the day, Through either of these ways 😁 Im looking forward to hearing from you!</h2>
            
@@ -42,8 +38,6 @@ function Contact() {
             <span className='contact-icons'><a href="tel:07547986103" className='contact-link'><i class="fas fa-phone-square-alt phone"></i></a></span>
             
         </div>
-    </div>
-        
     </div>
     )}
     

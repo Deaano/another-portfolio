@@ -112,6 +112,10 @@
         margin-left: 0;
        
     }
+
+    .project-sub-header{
+        transform: skewY(0);
+    }
 }
 
 

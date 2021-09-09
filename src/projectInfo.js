@@ -1,4 +1,4 @@
-import Portfolio from './compnents/images/MovieApp.png'
+import Portfolio from './components/images/MovieApp.png'
 
 const projectInfo = [{
     id:1,

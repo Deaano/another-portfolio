@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './compnents/Header'
-import HeaderButton from './compnents/HeaderButton'
-import About from './compnents/About'
-import Projects from './compnents/Projects'
-import Contact from './compnents/Contact.jsx'
+import Header from './components/Header'
+import HeaderButton from './components/HeaderButton'
+import About from './components/About'
+import Projects from './components/Projects'
+import Contact from './components/Contact.jsx'
 import './App.css'
 
 // My First React Project was my portfolio :)
